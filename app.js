@@ -4,8 +4,8 @@ const app = express();
 
 const methodOverride =  require('method-override');
 
-let categorias = require("../router/categorias");
-let productos = require("../router/productos");
+let categorias = require("./src/router/categorias");
+let productos = require("./src/router/productos");
 
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
