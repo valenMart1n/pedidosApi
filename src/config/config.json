@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "curcuma_prueba",
-    "host": "127.0.0.1",
+    "username": "pedidosdb",
+    "password": "toreto178",
+    "database": "pedidosdb_web",
+    "host": "mysql-pedidosdb.alwaysdata.net",
     "dialect": "mysql"
   },
   "test": {
